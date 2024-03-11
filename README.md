@@ -1,19 +1,17 @@
 # arith
-//////////////////////////////////////////////////////////////////////////////
-                                    NAMES
-//////////////////////////////////////////////////////////////////////////////
+
+## NAMES
+
  Eva Caro (ecaro01) and Ava Sim (asim03)
  HW 4: arith
  Comp 40 Spring 2024
 
-//////////////////////////////////////////////////////////////////////////////
-                                ARCHITECTURE
-//////////////////////////////////////////////////////////////////////////////
+## ARCHITECTURE
  40image.c, which was provided to us, contains the main executable and handles
  command-line argument processing. It then calls the functions in compress40, 
  which either compress or decompress a file based on the user's input. 
 
-COMPRESSION:
+### COMPRESSION:
  If the user wants to use compression, compress40.c it will call on our 
  compress40 function. This function calls on 3 separate files (int.c, float.c,
  and codewords.c respectively). In int.c the program first trims the given
@@ -35,7 +33,7 @@ COMPRESSION:
  values into 32-bit codewords. After packing the codewords it will print them 
  out to stdout. compress40.c then frees the Pnm_ppm. 
 
-DECOMPRESSION:
+### DECOMPRESSION:
  If the user wants to use decompression, compress40.c will call on our 
  decompress40 function. This function calls on 3 separate files (codewords.c,
  float.c, and int.c respectively). First, the header is read in by decompress40
