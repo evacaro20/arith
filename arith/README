@@ -6,15 +6,6 @@
  Comp 40 Spring 2024
 
 //////////////////////////////////////////////////////////////////////////////
-                                ACKNOWLEDGMENTS
-//////////////////////////////////////////////////////////////////////////////
- TAs at Office Hours: Dan, Naomi, Rohun, and others!
- TAs gave us the helpful hint to test our compression and decompression with 
- those of other students so we also ran our decompression with other students' 
- compressed files and vice-versa.
-
- 
-//////////////////////////////////////////////////////////////////////////////
                                 ARCHITECTURE
 //////////////////////////////////////////////////////////////////////////////
  40image.c, which was provided to us, contains the main executable and handles
@@ -64,20 +55,3 @@ DECOMPRESSION:
  float form to red, green, and blue unsigned int values through a series of 
  conversion formulas. Finally, decompress40 prints the resulting, decompressed
  ppm to standard output. 
-
- 
-//////////////////////////////////////////////////////////////////////////////
-                         CORRECTLY IMPLEMENTED/NOT
-//////////////////////////////////////////////////////////////////////////////
-Correctly Implemented: ALL
-
-Incorrectly Implemented: We believe everything was correctly implemented to
-the best of our understanding.
-
-
-
-//////////////////////////////////////////////////////////////////////////////
-                                TIME SPENT
-//////////////////////////////////////////////////////////////////////////////
-How many hours spent analyzing the problems posed in the assignment: 10 hours
-How many hours spent solving the problems after your analysis: 28 hours
